@@ -1,0 +1,85 @@
+/* Helper Style Sheet */
+
+/* Adjusting for different platforms */
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+
+
+a {
+    font-family: monospace;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Navigation functions */
+
+#nav>a {
+    font-family: monospace;
+    color: white;
+    text-decoration: underline;
+    background: rgba(0,0,0,0.3);
+    width: fit-content;
+    border-color: rgb(66, 66, 66, 0.6);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+
+#nav>a:hover {
+    color: beige;
+}
+
+a>img {
+    opacity: 60%;
+    border-color: rgb(66, 66, 66, 0.4);
+    border-style: solid;
+    border-width: 1px;
+}
+
+a>img:hover {
+    opacity: 92%;
+}
+
+/* Examples functions */ 
+
+.project1>img {
+    opacity: 80%;
+}
+
+.project1>img:hover {
+    opacity: 90%;
+}
+
+
+.projects>a:after {
+    color: beige;
+}
+
+.projects:hover {
+    opacity: 90%;
+}
+
+/* Random */
+
+div>h1 {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: beige;
+    text-decoration: underline;
+    padding: .5rem;
+}
+
+hr {
+    width: 40rem;
+    height: .2px;
+    background-color: beige;
+    opacity: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
