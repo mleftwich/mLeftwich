@@ -261,6 +261,7 @@
       justify-content: center;
       position: relative;
       size-adjust: inherit;
+      width: fit-content;
     }
     .container2 {
       display: flex;
