@@ -8,8 +8,7 @@
     position: relative;
     size-adjust: inherit;
     width: fit-content;
-    text-align: center;
-    display: block;
+    padding-left: 50%;
   }
   .container2 {
     display: flex;
@@ -21,16 +20,14 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-    text-align: center;
-    display: block;
+    padding-left: 50%;
   }
   #examples {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
-    display: block;
+    padding-left: 50%;
   }
 
   .project1 {
@@ -38,8 +35,7 @@
     flex-direction: column;
     text-align: center;
     margin-bottom: -1px;
-    width: fit-content;
-    display: block;
+    padding-left: 50%;
   }
 
   .projectinfo {
