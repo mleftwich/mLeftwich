@@ -6,8 +6,8 @@
     and (-webkit-device-pixel-ratio: 3) {
         .container {
         display: flex;
-        flex-wrap: no wrap;
-        max-width: 60%;
+        flex-wrap: wrap;
+        max-width: fit-content;
         justify-content: center;
         position: relative;
         margin: auto;
