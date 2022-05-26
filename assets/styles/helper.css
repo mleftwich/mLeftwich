@@ -20,13 +20,16 @@
         height: auto;
         flex-direction: column;
         } 
-       .projectinfo {
+       .projects {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
         size-adjust:inherit;
        }
+       #examples {
+           flex-wrap: wrap;
+      }
 }
 
 a {
