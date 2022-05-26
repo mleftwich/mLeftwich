@@ -16,7 +16,7 @@
         flex-wrap: wrap;
         justify-content: center;
         size-adjust:inherit;
-        width: 200px;
+        width: auto;
         height: auto;
     } 
        
