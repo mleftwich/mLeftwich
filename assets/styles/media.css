@@ -284,7 +284,7 @@
       display: flex;
       flex-direction: column;
       margin-bottom: -1px;
-      width: 100%;
+      width: fit-content;
     }
   
     .projectinfo {
@@ -292,7 +292,7 @@
       line-break: auto;
     }
     .projects {
-      width: 100%;
+      width: fit-content;
     }
 
 }
