@@ -5,8 +5,8 @@
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
         body {
-            max-width:fit-content;
-            max-height: fit-content;
+            max-width: 60%;
+            max-height: 60;
             display:inline-block;
         }
     }
