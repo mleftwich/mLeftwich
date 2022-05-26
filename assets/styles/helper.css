@@ -13,7 +13,7 @@
          }
       .container2 {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         size-adjust: inherit;
         width: auto;
