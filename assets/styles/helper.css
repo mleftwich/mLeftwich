@@ -4,11 +4,10 @@
     and (device-width: 428px) 
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            position: relative;
+        .info {
+            max-width: 20rem;
+            max-height: auto;
+            
         }
     }
 }
