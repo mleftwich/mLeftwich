@@ -11,14 +11,14 @@
         position: relative;
         size-adjust:inherit;
        }
-    /*   .container2 {
+      .container2 {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         position: relative;
-        size-adjust:inherit;
+        size: 80%;
         margin: auto;
-       } */
+       } 
        
 }
 a {
