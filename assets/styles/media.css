@@ -54,29 +54,19 @@
   }
 
   .info {
-    ddisplay: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    size-adjust: inherit;
-    width: fit-content;
-    flex-direction: column;
+    display: flex;
     margin-bottom: -1px;
-    width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
   }
 
   #about {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    size-adjust: inherit;
-    width: fit-content;
-    flex-direction: column;
     margin-bottom: -1px;
-    width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
   }
 }
 
