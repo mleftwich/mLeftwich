@@ -23,6 +23,12 @@
        div {
            max-width: 428px;
        }
+       .project1 {
+           display: inline-block;
+       }
+       .projects {
+           display: inline-block;
+       }
 }
 a {
     font-family: monospace;
