@@ -8,8 +8,6 @@
     position: relative;
     size-adjust: inherit;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
   }
   .container2 {
     display: flex;
