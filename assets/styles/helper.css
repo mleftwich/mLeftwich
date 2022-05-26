@@ -4,18 +4,14 @@
     and (device-width: 428px) 
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .info {
-            max-width: 20rem;
-            max-height: auto;
-            
-        }
-        .project1 {
-            max-width: 20rem;
-            max-height: auto;
-            padding-left: auto;
-        }
-    }
-}
+       .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        size-adjust:inherit;
+       }
+
 
 a {
     font-family: monospace;
