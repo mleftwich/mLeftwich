@@ -31,10 +31,12 @@
             display: flex;
             flex-direction: column;
             margin-bottom: -1px;
-            }
+            width: 40rem;
+        }
     
         .projectinfo {
             font-size: .6rem;
+            line-break: auto;
         }
     
        
