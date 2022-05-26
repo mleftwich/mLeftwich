@@ -13,13 +13,13 @@
          }
       .container2 {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         size-adjust: inherit;
         width: auto;
         height: auto;
         flex-direction: column;
-        margin-bottom: -2px;
+        margin-bottom: -1px;
         }
     
        
