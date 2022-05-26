@@ -95,7 +95,7 @@ html {
 }
 
 /* Examples of applications */
-/*
+
 #examples {
     display: flex;
     flex-wrap: nowrap;
@@ -103,7 +103,7 @@ html {
     position: relative;
     scroll-margin-block-start: 0px;
 }
-*/
+
 .project1 {
     background: rgba(0,0,0,0.3);
     width: 60rem;
