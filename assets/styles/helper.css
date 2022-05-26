@@ -12,7 +12,7 @@
         size-adjust:inherit;
        }
       .container2 {
-        display: inline-block;
+        display: block;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
