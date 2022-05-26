@@ -10,7 +10,7 @@
         justify-content: center;
         position: relative;
         size-adjust:inherit;
-       }
+         }
       .container2 {
         display: flex;
         flex-wrap: wrap;
@@ -20,14 +20,18 @@
         height: auto;
         flex-direction: column;
         margin-bottom: -1px;
-        } 
-       .project1 {
+        }
+        .project1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        position: relative;
-        size-adjust:inherit;
-       }
+        size-adjust: inherit;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: -1px;
+        }
+       
 }
 
 a {
