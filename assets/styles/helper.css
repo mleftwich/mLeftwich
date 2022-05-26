@@ -18,11 +18,8 @@
         size-adjust:inherit;
         width: auto;
         height: auto;
-        
-    } 
-    .project1 {
-        display: block;
-    }
+        flex-direction: column;
+        } 
        
 }
 a {
