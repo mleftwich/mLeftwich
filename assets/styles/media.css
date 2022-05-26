@@ -295,5 +295,8 @@
     .projects {
       width: fit-content;
     }
+    .ripple {
+      width: 100%;
+    }
 
 }
