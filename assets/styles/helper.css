@@ -1,7 +1,10 @@
 /* Helper Style Sheet */
 
-@media screen and (max-width: 480px) {
-    .container {
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .container {
         display: flex;
         flex-wrap: no wrap;
         max-width: 60%;
