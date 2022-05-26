@@ -22,10 +22,10 @@
         } 
        
        .project1 {
-           display: inline-block;
+           display: block;
        }
        .projects {
-           display: inline-block;
+           display: block;
        }
 }
 a {
