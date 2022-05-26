@@ -4,7 +4,7 @@
     and (device-width: 428px) 
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
-        body {
+        .container {
             max-width: 60%;
             max-height: 60;
             display:inline-block;
