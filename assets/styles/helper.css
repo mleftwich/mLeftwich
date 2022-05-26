@@ -20,6 +20,12 @@
         height: auto;
         flex-direction: column;
         } 
+        .project1 {
+            flex-wrap: wrap;
+        }
+        #examples {
+            flex-wrap: wrap;
+        }
 }
 
 a {
