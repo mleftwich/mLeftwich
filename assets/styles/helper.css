@@ -5,8 +5,7 @@
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
         .container {
-        max-width: 428px;
-        max-height: 926px;
+        display: none;
     }
 }
 
