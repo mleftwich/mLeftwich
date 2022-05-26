@@ -14,10 +14,10 @@
       .container2 {
         display: inline-table;
         flex-wrap: wrap;
-        justify-content:end;
+        justify-content: center;
         position: relative;
         size-adjust:inherit;
-        width:max-content;
+        width: min-content;
         height: auto;
         margin: auto;
     } 
