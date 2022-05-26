@@ -5,8 +5,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
     size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
