@@ -22,10 +22,10 @@
         } 
        
        .project1 {
-           display: block;
+        flex-direction: column;
        }
        .projects {
-           display: block;
+        flex-direction: column;
        }
 }
 a {
