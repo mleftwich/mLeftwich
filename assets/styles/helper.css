@@ -12,6 +12,7 @@
         .project1 {
             max-width: 20rem;
             max-height: auto;
+            padding-left: auto;
         }
     }
 }
