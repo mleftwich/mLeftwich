@@ -1,33 +1,13 @@
 /* Helper Style Sheet */
 
-/* Adjusting for different platforms */
-
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+@media screen and (max-width: 786px) {
+    .containter {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: fit-content;
+        justify-content: center;
+    }
 }
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
-
 
 a {
     font-family: monospace;
