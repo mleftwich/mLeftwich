@@ -5,9 +5,10 @@
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
         .container {
-            max-width: 60%;
-            max-height: 60;
-            display:inline-block;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
         }
     }
 }
