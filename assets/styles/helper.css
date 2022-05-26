@@ -9,6 +9,10 @@
             max-height: auto;
             
         }
+        .project1 {
+            max-width: 20rem;
+            max-height: auto;
+        }
     }
 }
 
