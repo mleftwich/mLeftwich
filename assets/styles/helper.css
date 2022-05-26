@@ -1,6 +1,6 @@
 /* Helper Style Sheet */
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 480px) {
     .container {
         display: flex;
         flex-wrap: no wrap;
