@@ -76,6 +76,7 @@ html {
   font-size: 15px;
   padding: 1rem;
   position: relative;
+  width: fit-content;
 }
 
 /* Footer/navigation */
