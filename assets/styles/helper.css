@@ -15,19 +15,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        size-adjust:inherit;
+        size-adjust: inherit;
         width: auto;
         height: auto;
         flex-direction: column;
         } 
-       
-       .project1 {
-        flex-wrap: nowrap;
-       }
-       .projects {
-        flex-wrap: nowrap;
-       }
 }
+
 a {
     font-family: monospace;
     color: white;
