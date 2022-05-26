@@ -20,7 +20,9 @@
         height: auto;
         flex-direction: column;
         } 
-       
+       div {
+           max-width: 428px;
+       }
 }
 a {
     font-family: monospace;
