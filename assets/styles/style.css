@@ -128,8 +128,6 @@ html {
     border-style: solid;
     border-width: 1px;
     padding: 1rem;
-    width: fit-content;
-    height: fit-content;
 }
 
 .projects {
