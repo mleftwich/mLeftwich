@@ -7,7 +7,7 @@
     justify-content: center;
     position: relative;
     size-adjust: inherit;
-    width: auto;
+    width: fit-content;
   }
   .container2 {
     display: flex;
