@@ -19,18 +19,9 @@
         width: auto;
         height: auto;
         flex-direction: column;
+        margin-bottom: -1px;
         } 
-       .projects {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        position: relative;
-        size-adjust:inherit;
-       }
-       #examples {
-           display: grid;
-           grid-template: 1fr / 1fr;
-      }
+       
 }
 
 a {
