@@ -28,7 +28,7 @@
         size-adjust:inherit;
        }
        #examples {
-           flex-wrap: wrap;
+           display: grid;
       }
 }
 
