@@ -32,8 +32,12 @@
             flex-direction: column;
             margin-bottom: -1px;
             width:fit-content;
+            }
+    
+        .projectinfo {
+            font-size: .6rem;
+            width:inherit;
         }
-
     
        
 }
