@@ -21,10 +21,10 @@
         flex-direction: column;
         } 
         .project1 {
-            flex-wrap: wrap;
+            max-width: 400px;
         }
         #examples {
-            flex-wrap: wrap;
+            max-width: 400px;
         }
 }
 
