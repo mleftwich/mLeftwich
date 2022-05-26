@@ -21,7 +21,13 @@
         flex-direction: column;
         margin-bottom: -1px;
         } 
-       
+       .project1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        size-adjust:inherit;
+       }
 }
 
 a {
