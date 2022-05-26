@@ -12,11 +12,11 @@
         size-adjust:inherit;
        }
       .container2 {
-        display: inline-block;
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         size-adjust:inherit;
-        width: 400px;
+        width: 200px;
         height: auto;
         margin: 0;
     } 
