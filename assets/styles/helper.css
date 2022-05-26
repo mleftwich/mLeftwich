@@ -5,7 +5,7 @@
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
         .container {
-        display: inline-flexbox;
+        display: inline-block;
         max-width: 80%;
         justify-content: center;
         position:absolute;
