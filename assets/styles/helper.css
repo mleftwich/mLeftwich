@@ -19,7 +19,8 @@
         size-adjust:inherit;
         width:max-content;
         height: auto;
-        } 
+        margin: auto;
+    } 
        
 }
 a {
