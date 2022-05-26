@@ -1,165 +1,164 @@
 /* Main Style Sheet */
 
-html { 
-    background: url(../images/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    scroll-behavior: smooth;
-  }
+html {
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
 
 /* Header name/image */
-  
-  #header {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
 
-  .name {
-      font-family: monospace;
-      font-size: 4rem;
-      color: whitesmoke;
-      text-align: center;
-      padding-top: 5rem;
-      text-shadow: 5px 5px rgb(56, 56, 56);
-  }
+#header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .profile {
-    height: 12rem;
-    width: auto;
-    position: absolute;
-    top: 10rem;
-    border-radius: 200px;
-    opacity: 90%;
-    padding: 5px;
-    border-width: 2px;
-    border-color: white;
-    border-style: dotted;
+.name {
+  font-family: monospace;
+  font-size: 4rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 5rem;
+  text-shadow: 5px 5px rgb(56, 56, 56);
+}
+
+.profile {
+  height: 12rem;
+  width: auto;
+  position: absolute;
+  top: 10rem;
+  border-radius: 200px;
+  opacity: 90%;
+  padding: 5px;
+  border-width: 2px;
+  border-color: white;
+  border-style: dotted;
 }
 
 /* Links to socials and contact */
 
 #socials {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 15rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15rem;
+  justify-content: center;
 }
 
 .icon {
-    width: 2rem;
-    height: auto;
-    padding: 1rem;
-    border-style: none;
+  width: 2rem;
+  height: auto;
+  padding: 1rem;
+  border-style: none;
 }
 
 /* About section */
 
 .info {
-    width: 50rem;
-    height: auto;
-    background: rgba(0,0,0,0.3);
-    margin: auto;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(66, 66, 66, 0.4);
+  width: 50rem;
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(66, 66, 66, 0.4);
 }
 
 #about {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: beige;
-    font-family: monospace;
-    font-size: 15px;
-    padding: 1rem;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: beige;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 1rem;
+  position: relative;
 }
 
 /* Footer/navigation */
 
 .navigation {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
 }
 
 #nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
 }
 
 /* Examples of applications */
 
 #examples {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    position: relative;
-    scroll-margin-block-start: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  scroll-margin-block-start: 0px;
 }
 
 .project1 {
-    background: rgba(0,0,0,0.3);
-    width: 60rem;
-    height: auto;
-    border-color: rgb(66, 66, 66, 0.4);
-    border-style: solid;
-    border-width: 1px;
-    padding: 0.4rem;
-    margin: 0.4rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  width: 60rem;
+  height: auto;
+  border-color: rgb(66, 66, 66, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
 }
 
 .projectinfo {
-    font-family: monospace;
-    font-size: .9rem;
-    color: rgb(200, 193, 173);
-    background: rgba(0,0,0,0.3);
-    border-color: rgb(66, 66, 66, 0.4);
-    border-style: solid;
-    border-width: 1px;
-    padding: 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: rgb(200, 193, 173);
+  background: rgba(0, 0, 0, 0.3);
+  border-color: rgb(66, 66, 66, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  padding: 1rem;
 }
 
 .projects {
-    background: rgba(0,0,0,0.3);
-    width: 29rem;
-    height: auto;
-    border-color: rgb(66, 66, 66, 0.4);
-    border-style: solid;
-    border-width: 1px;
-    padding: 0.4rem;
-    margin: 0.4rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    position: relative;
-    opacity: 80%;
+  background: rgba(0, 0, 0, 0.3);
+  width: 29rem;
+  height: auto;
+  border-color: rgb(66, 66, 66, 0.4);
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.4rem;
+  margin: 0.4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  position: relative;
+  opacity: 80%;
 }
 
-
 .ripple {
-    opacity: 80%;
+  opacity: 80%;
 }
 
 /* Footer */
 
 .footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: beige;
-    font-family: monospace;
-    font-size: 15px;
-    padding: 1rem;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: beige;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 1rem;
+  position: relative;
 }

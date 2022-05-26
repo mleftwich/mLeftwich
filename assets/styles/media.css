@@ -1,0 +1,249 @@
+/* iPhone 13 Pro */
+
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}
+
+/* iPhone 12/13 */
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}
+
+/* Older iPhones */
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}
+
+/* Samsung */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}
+
+/* Tablets */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: 26.5rem;
+  }
+
+  .projectinfo {
+    font-size: 0.6rem;
+    line-break: auto;
+  }
+  .projects {
+    width: 26.5rem;
+  }
+}

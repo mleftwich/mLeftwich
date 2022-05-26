@@ -1,121 +1,75 @@
 /* Helper Style Sheet */
 
-@media only screen 
-    and (device-width: 428px) 
-    and (device-height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) {
-       .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        position: relative;
-        size-adjust:inherit;
-         }
-      .container2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        size-adjust: inherit;
-        width: auto;
-        height: auto;
-        flex-direction: column;
-        margin-bottom: -1px;
-        }
-        #examples {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: -1px;
-        }
-        
-        .project1 {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: -1px;
-            width: 26.5rem;
-        }
-    
-        .projectinfo {
-            font-size: .6rem;
-            line-break: auto;
-        }
-        .projects {
-            width: 26.5rem;
-        }
-    
-       
-}
-
 a {
-    font-family: monospace;
-    color: white;
-    text-decoration: underline;
+  font-family: monospace;
+  color: white;
+  text-decoration: underline;
 }
 
 /* Navigation functions */
 
-#nav>a {
-    font-family: monospace;
-    color: white;
-    text-decoration: underline;
-    background: rgba(0,0,0,0.3);
-    width: fit-content;
-    border-color: rgb(66, 66, 66, 0.6);
-    border-style: solid;
-    border-width: 1px;
-    padding: 0.4rem;
-    margin: 0.4rem;
+#nav > a {
+  font-family: monospace;
+  color: white;
+  text-decoration: underline;
+  background: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  border-color: rgb(66, 66, 66, 0.6);
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.4rem;
+  margin: 0.4rem;
 }
 
-#nav>a:hover {
-    color: beige;
+#nav > a:hover {
+  color: beige;
 }
 
-a>img {
-    opacity: 60%;
-    border-color: rgb(66, 66, 66, 0.4);
-    border-style: solid;
-    border-width: 1px;
+a > img {
+  opacity: 60%;
+  border-color: rgb(66, 66, 66, 0.4);
+  border-style: solid;
+  border-width: 1px;
 }
 
-a>img:hover {
-    opacity: 92%;
+a > img:hover {
+  opacity: 92%;
 }
 
-/* Examples functions */ 
+/* Examples functions */
 
-.project1>img {
-    opacity: 80%;
+.project1 > img {
+  opacity: 80%;
 }
 
-.project1>img:hover {
-    opacity: 90%;
+.project1 > img:hover {
+  opacity: 90%;
 }
 
-
-.projects>a:after {
-    color: beige;
+.projects > a:after {
+  color: beige;
 }
 
 .projects:hover {
-    opacity: 90%;
+  opacity: 90%;
 }
 
 /* Random */
 
-div>h1 {
-    font-family: monospace;
-    font-size: 1.2rem;
-    color: beige;
-    text-decoration: underline;
-    padding: .5rem;
+div > h1 {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: beige;
+  text-decoration: underline;
+  padding: 0.5rem;
 }
 
 hr {
-    width: 40rem;
-    height: .2px;
-    background-color: beige;
-    opacity: 60%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  width: 40rem;
+  height: 0.2px;
+  background-color: beige;
+  opacity: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
