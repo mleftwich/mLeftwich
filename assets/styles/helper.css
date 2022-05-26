@@ -15,7 +15,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        position: relative;
+        position: left;
         size-adjust:inherit;
         width: 400px;
         height: auto;
