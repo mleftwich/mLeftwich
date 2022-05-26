@@ -17,6 +17,8 @@
         justify-content: center;
         position: relative;
         size-adjust:inherit;
+        width: 40rem;
+        height: auto;
         } 
        
 }
