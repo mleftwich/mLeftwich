@@ -12,12 +12,12 @@
         size-adjust:inherit;
        }
       .container2 {
-        display: inline-table;
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
         size-adjust:inherit;
-        width: min-content;
+        width: 428px;
         height: auto;
         margin: auto;
     } 
