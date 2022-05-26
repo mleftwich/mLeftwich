@@ -4,8 +4,11 @@
     and (device-width: 428px) 
     and (device-height: 926px) 
     and (-webkit-device-pixel-ratio: 3) {
-        .container {
-        display: none;
+        body {
+            max-width:fit-content;
+            max-height: fit-content;
+            display:inline-block;
+        }
     }
 }
 
