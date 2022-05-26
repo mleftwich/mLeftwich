@@ -15,10 +15,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        position: left;
         size-adjust:inherit;
         width: 400px;
         height: auto;
+        margin: 0;
     } 
        
 }
