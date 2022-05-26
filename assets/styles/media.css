@@ -17,11 +17,13 @@
     height: auto;
     flex-direction: column;
     margin-bottom: -1px;
+    width: 100%
   }
   #examples {
     display: flex;
     flex-direction: column;
     margin-bottom: -1px;
+    width: 100%;
   }
 
   .project1 {
