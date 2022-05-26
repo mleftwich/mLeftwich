@@ -12,12 +12,8 @@
         size-adjust:inherit;
        }
       .container2 {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        position: relative;
-        size: 80%;
-        margin: auto;
+        display: inline-block;
+        
        } 
        
 }
