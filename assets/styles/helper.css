@@ -14,7 +14,7 @@
       .container2 {
         display: inline-table;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:end;
         position: relative;
         size-adjust:inherit;
         width:max-content;
