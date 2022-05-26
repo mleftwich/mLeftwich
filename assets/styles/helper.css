@@ -3,9 +3,9 @@
 @media screen and (max-width: 786px) {
     .container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: no wrap;
         max-width: 60%;
-        justify-content: space-between;
+        justify-content: center;
         position: relative;
         margin: auto;
     }
