@@ -18,7 +18,11 @@
         size-adjust:inherit;
         width: auto;
         height: auto;
+        
     } 
+    .project1 {
+        display: inline-block;
+    }
        
 }
 a {
