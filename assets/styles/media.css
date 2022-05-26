@@ -54,12 +54,11 @@
   }
 
   .info {
-    display: flex;
+    ddisplay: flex;
     flex-wrap: wrap;
     justify-content: center;
     size-adjust: inherit;
-    width: auto;
-    height: auto;
+    width: fit-content;
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
@@ -72,8 +71,7 @@
     flex-wrap: wrap;
     justify-content: center;
     size-adjust: inherit;
-    width: auto;
-    height: auto;
+    width: fit-content;
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
