@@ -18,6 +18,10 @@
         position: relative;
         size-adjust:inherit;
        }
+       .ripple {
+           height: 10rem;
+           width: auto;
+       }
     }
 
 a {
