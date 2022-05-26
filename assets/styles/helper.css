@@ -17,13 +17,10 @@
         justify-content: center;
         position: relative;
         size-adjust:inherit;
+        padding: auto;
        }
-       .ripple {
-           height: 5rem;
-           width: auto;
-       }
-    }
-
+       
+}
 a {
     font-family: monospace;
     color: white;
