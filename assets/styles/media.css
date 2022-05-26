@@ -7,11 +7,9 @@
     justify-content: center;
     position: relative;
     size-adjust: inherit;
-    width: fit-content;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
-    height: auto;
   }
   .container2 {
     display: flex;
@@ -76,7 +74,7 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: fit-content
+    width: fit-content;
   }
 }
 
