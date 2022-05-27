@@ -22,14 +22,13 @@
     }
     .intro {
       display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    size-adjust: inherit;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    margin-bottom: -1px;
-    width: fit-content;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: -1px;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      width: fit-content;
     }
   #examples {
     display: flex;
