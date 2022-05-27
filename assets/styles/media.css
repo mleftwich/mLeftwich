@@ -100,19 +100,30 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-  }
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
   #examples {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
+    height: auto;
   }
 
   .project1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: -1px;
     width: fit-content;
+    height: auto;
   }
 
   .projectinfo {
@@ -124,6 +135,28 @@
   }
   .ripple {
     width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
   }
 }
 
@@ -148,23 +181,34 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-  }
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
   #examples {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
+    height: auto;
   }
 
   .project1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: -1px;
     width: fit-content;
+    height: auto;
   }
 
   .projectinfo {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-break: auto;
   }
   .projects {
@@ -173,7 +217,112 @@
   .ripple {
     width: 100%;
   }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
 }
+
+/* iPhone 11 Pro Max */
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    size-adjust: inherit;
+    width: fit-content;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    size-adjust: inherit;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: -1px;
+    width: fit-content;
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
+  #examples {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-bottom: -1px;
+    height: auto;
+  }
+
+  .project1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    width: fit-content;
+    height: auto;
+  }
+
+  .projectinfo {
+    font-size: 0.7rem;
+    line-break: auto;
+  }
+  .projects {
+    width: fit-content;
+  }
+  .ripple {
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+}
+
+
 
 /* Samsung */
 
@@ -196,23 +345,34 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-  }
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
   #examples {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
+    height: auto;
   }
 
   .project1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: -1px;
     width: fit-content;
+    height: auto;
   }
 
   .projectinfo {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-break: auto;
   }
   .projects {
@@ -220,6 +380,28 @@
   }
   .ripple {
     width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
   }
 }
 
@@ -242,23 +424,34 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-  }
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
   #examples {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
+    height: auto;
   }
 
   .project1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: -1px;
     width: fit-content;
+    height: auto;
   }
 
   .projectinfo {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-break: auto;
   }
   .projects {
@@ -266,6 +459,28 @@
   }
   .ripple {
     width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
   }
 }
 
@@ -288,23 +503,34 @@
     flex-direction: column;
     margin-bottom: -1px;
     width: fit-content;
-  }
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      size-adjust: inherit;
+      width: fit-content;
+    }
   #examples {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
     margin-bottom: -1px;
-    width: fit-content;
+    height: auto;
   }
 
   .project1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: -1px;
     width: fit-content;
+    height: auto;
   }
 
   .projectinfo {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-break: auto;
   }
   .projects {
@@ -312,6 +538,28 @@
   }
   .ripple {
     width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
   }
 }
 
@@ -340,23 +588,34 @@
       flex-direction: column;
       margin-bottom: -1px;
       width: fit-content;
-    }
+      }
+      .intro {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        size-adjust: inherit;
+        width: fit-content;
+      }
     #examples {
       display: flex;
       flex-direction: column;
+      margin-left: auto;
       margin-bottom: -1px;
-      width: fit-content;
+      height: auto;
     }
   
     .project1 {
       display: flex;
       flex-direction: column;
+      text-align: center;
       margin-bottom: -1px;
       width: fit-content;
+      height: auto;
     }
   
     .projectinfo {
-      font-size: 0.6rem;
+      font-size: 0.7rem;
       line-break: auto;
     }
     .projects {
@@ -364,6 +623,28 @@
     }
     .ripple {
       width: 100%;
+    }
+  
+    .info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: -1px;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      width: fit-content;
+    }
+  
+    #about {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: -1px;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      width: fit-content;
     }
 
 }
