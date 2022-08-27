@@ -144,12 +144,19 @@ html {
   flex-wrap: nowrap;
   justify-content: center;
   position: relative;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .ripple {
   opacity: 80%;
   width: 400px;
+  height: 300px;
+  padding: 50px;
+}
+.example {
+  opacity: 80%;
+  width: 200px;
+  padding: 10px;
 }
 
 /* Footer */
