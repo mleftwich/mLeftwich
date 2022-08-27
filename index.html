@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/helper.css" />
     <link rel="stylesheet" href="./assets/styles/media.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <title>mLeftwich</title>
   </head>
 
@@ -84,7 +85,7 @@
 
       <!-- About -->
 
-      <section class="info">
+     <section class="info">
         <div id="about">
           <p>
             My name is Matt Leftwich, I'm a developing web developer. I started
@@ -118,15 +119,19 @@
           </p>
         </div>
       </section>
-
+      <div id="header">
+      <button type="button" class="btn" id="view">View Work & Examples</button>
+    </div>
       <hr />
-</section>
-      <!-- Examples of projects(FIRST EXAMPLE TO BE BIGGER/MAIN FOCUS)-->
+</section> 
+     
+
+<!-- Examples of projects(FIRST EXAMPLE TO BE BIGGER/MAIN FOCUS)-->
     </div>
     <div class="container">
-    <div class="container2">
+   <!-- <div class="container2">
       <section id="examples">
-        <div class="project1">
+      <div class="project1">
           <a
             href="https://navneet-birdi.github.io/Inspired-Eats/"
             alt="Example of work"
@@ -163,9 +168,13 @@
               and take the guesswork out of cooking today!.
             </p>
           </div>
-        </div>
-      </section>
+        </div> -->
 
+
+
+        
+      </section>
+      <section id="work">
       <section id="examples">
         <div class="projects">
           <a href="https://payup-invoice-gen.herokuapp.com">
@@ -190,20 +199,17 @@
         </div>
 
         <div class="projects">
-          <a href="placeholder.html">
-            <img
-              src="./assets/images/placeholder.png"
-              height="200rem"
-              width="auto"
-              alt="Configuration icon"
-            />
+          <a
+            href="https://navneet-birdi.github.io/Inspired-Eats/"
+            alt="Example of work"
+          >
+            <img src="./assets/images/inspired.png" class="example">
           </a>
           <div class="projectinfo">
-            <h1>Coming Soon..</h1>
+            <h1>Inspired Eats</h1>
             <p>
-              This is a placeholder for my future applications. I look forward
-              to learning and implenting new ideas and processes to create
-              aesthetically pleasing functioning websites. Keep an eye out!
+              Provides food for thought in the way of a quirky quote and
+              generates a random recipe based on the users location, dependant on the weather conditions.
             </p>
           </div>
         </div>
@@ -248,12 +254,15 @@
           </div>
         </div>
       </section>
-
+    </section>
       <hr />
 
       <div class="footer">
         <p>Created by Matthew Leftwich, 2022 // Contact: mleftwich@live.com</p>
       </div>
     </div>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   </body>
 </html>

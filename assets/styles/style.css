@@ -158,7 +158,24 @@ html {
   width: 200px;
   padding: 10px;
 }
+.btn {
+ margin: 1rem;
+ width: 20rem;
+ background-color: rgba(0, 0, 0, 0.6);
+ border-color: rgb(66, 66, 66, 0.4);
+ border-style: solid;
+ font-family: monospace;
+ font-size: 1rem;
+ color: rgb(255, 255, 255);
+ height: 3rem;
+ border-radius: 50px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: beige;
+  }
 
+#work2 { animation: fadeIn 2s; }
 /* Footer */
 
 .footer {
@@ -170,4 +187,9 @@ html {
   font-size: 15px;
   padding: 1rem;
   position: relative;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
