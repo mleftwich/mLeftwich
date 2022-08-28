@@ -53,11 +53,13 @@ html {
   height: auto;
   padding: 1rem;
   border-style: none;
+  opacity: 1;
 }
 
 /* About section */
 
 .info {
+  border-radius: 30px;
   width: 50rem;
   height: auto;
   background: rgba(0, 0, 0, 0.3);
@@ -65,6 +67,7 @@ html {
   border-width: 1px;
   border-style: solid;
   border-color: rgb(66, 66, 66, 0.4);
+  
 }
 
 #about {
@@ -103,6 +106,7 @@ html {
   justify-content: center;
   position: relative;
   scroll-margin-block-start: 0px;
+  border-radius: 30px;
 }
 
 .project1 {
@@ -118,9 +122,11 @@ html {
   flex-wrap: nowrap;
   justify-content: center;
   position: relative;
+  border-radius: 30px;
 }
 
 .projectinfo {
+  border-radius: 30px;
   font-family: monospace;
   font-size: 0.9rem;
   color: rgb(200, 193, 173);
@@ -128,10 +134,12 @@ html {
   border-color: rgb(66, 66, 66, 0.4);
   border-style: solid;
   border-width: 1px;
+  
   padding: 1rem;
 }
 
 .projects {
+  border-radius: 30px;
   background: rgba(0, 0, 0, 0.3);
   width: 29rem;
   height: auto;
@@ -205,3 +213,4 @@ html {
 .i2 { animation: fadeIn 3s; }
 .i3 { animation: fadeIn 4s; }
 .i4 { animation: fadeIn 5s; }
+
