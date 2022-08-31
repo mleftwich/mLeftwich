@@ -165,6 +165,7 @@ html {
   opacity: 80%;
   width: 200px;
   padding: 10px;
+  height: auto;
 }
 .btn {
  margin: 1rem;
